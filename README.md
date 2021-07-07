@@ -1,24 +1,26 @@
-# test
+# chartjs-vue wc-repro
 
 ## Project setup
-```
+
+```bash
 yarn install
 ```
 
-### Compiles and hot-reloads for development
-```
-yarn serve
+### Setup reproduction assets
+
+```bash
+yarn repro
 ```
 
-### Compiles and minifies for production
-```
-yarn build
-```
+Then navigate to test/ovo-test/test/demo.html and observe:
 
-### Lints and fixes files
-```
-yarn lint
-```
+- No chart
+- Nothing in the console log that signifies failure
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Expected result:
+
+![Expected result](.github/img/expected.png)
+
+Actual result:
+
+![Actual result](.github/img/actual.png)
